@@ -7,7 +7,7 @@ header{
     background:  blue;
     text-align: center;
     grid-column: 1 / 4;    
-    display: flex;
+    
 }
 nav{
     background: black;
@@ -16,6 +16,7 @@ nav{
     height: 200px;
     text-align: center;
     grid-column: 1 / 4;
+    display: flex;
 }
 ul{
     text-decoration: none;

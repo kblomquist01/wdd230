@@ -6,10 +6,13 @@ body{
 header{
     background:  blue;
     text-align: center;
-    grid-column: 1 / 4;
+    grid-column: 1 / 4;    
+    display: flex;
 }
 nav{
     background: black;
+    align-items: center;
+	justify-content: center;
     height: 200px;
     text-align: center;
     grid-column: 1 / 4;
@@ -17,8 +20,7 @@ nav{
 ul{
     text-decoration: none;
 }
-nav ul li{
-
+nav ul li{ 
     padding-bottom: 20px;
 }
 nav ul li a{

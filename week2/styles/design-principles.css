@@ -3,6 +3,7 @@ main{
     grid-template-columns: 1frs, auto;
     grid-column-gap: 5px;
     grid-row-gap: 5px;
+    font-family: 'Roboto', sans-serif;
 }
 .VH, .HL, .WS {
     border-radius: 20px;

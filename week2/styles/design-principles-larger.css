@@ -1,0 +1,30 @@
+@media screen and (min-width: 1000px) {
+    main{
+        display: grid;
+        grid-template-columns: 1fr, auto, auto;
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+    }   
+    .VH, .HL, .WS {
+        border-radius: 20px;
+    }
+    h1, h2, h3{
+        text-align: center;
+    }
+    
+    .VH{
+        background: lightpink;
+        padding: 2rem;
+        grid-column: 1 / 2;
+    }
+    .HL{
+        background: rgb(182, 255, 182);
+        padding: 2rem;
+        grid-column: 2 / 3;
+    }
+    .WS{
+        background: rgb(193, 182, 255);
+        padding: 2rem;
+        grid-column: 3 / 5;
+    }
+}

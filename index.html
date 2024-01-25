@@ -11,18 +11,21 @@
     <meta property="og:url" content="https://kblomquist01.github.io/wdd230/"/>
     <title>Kevin Blomquist - WDD 230 - Web Frontend Development</title>
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+
     <link rel="icon" href="favicon.ico">
+
 </head>
 <body>
     <header>
         <h1>KevinBlomquist</h1>
         <img src="images/WIN_20230909_17_42_31_Pro.jpg" alt="Image of Kevin Blomquist" height=200px width=300px> 
     </header>
-    <nav>
+    <button id="menu"></button>
+    <nav class="navigation">
         <ul>
-            <li> <a href="#">Home</a></li>
+            <li> <a href="https://codepen.io/Kevin-Blomquist">Home</a></li>
             <li> <a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
             <li> <a href="chamber/" >Chamber</a></li>
             <li> <a href="https://www.byui.edu/" target="_blank">BYU-Idaho</a></li>
@@ -36,7 +39,7 @@
             <ul>
                 <li>01. <a href="">holygrail</a></li>
                 <li>02. <a href=""></a></li>
-                <li>03. <a href=""></a></li>
+                <li>03. <a href="cssCombinator.html">CSS combinator</a>|<a href="https://codepen.io/Kevin-Blomquist/details/abMVoVN">psuedo element</a>|<a href="https://codepen.io/Kevin-Blomquist/details/MWxOgzY">responsive</a></li>
                 <li>04. <a href=""></a></li>
                 <li>05. <a href=""></a></li>
                 <li>06. <a href=""></a></li>
@@ -48,10 +51,11 @@
         </section>
         
         <section name="card">
-            <h3>Information</h3>
+            <h3 class="weather">Information</h3>
             Weather: Is cold out there   Number of Visits: 0
         </section>
     </main>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d313543.41467156576!2d-95.37049008427674!3d29.7429790387487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1706223236594!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <footer>
         <p>
             &copy; <span id="currentyear"></span>, Kevin Blomquist, NC
@@ -61,5 +65,6 @@
         </p>
     </footer>
     <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburgerbutton.js"></script>
 </body>
 </html>

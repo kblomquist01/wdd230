@@ -23,7 +23,7 @@
     }
     .weather{
         display: grid;
-        grid-template-columns: 1fr, auto;
+        grid-template-columns: 1fr auto;
         grid-column: 1 / 2;
     }
     .member1{

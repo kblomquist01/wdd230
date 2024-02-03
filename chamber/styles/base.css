@@ -7,7 +7,7 @@ header{
     margin:0;
     padding:0;
     display: grid;
-    grid-template-columns: 1fr,auto;
+    grid-template-columns: 1fr auto;
     background: #362706;
     color: #8dd3c1;
 }
@@ -56,7 +56,7 @@ button{
 }
 .grid{
     display: grid;
-    grid-template-columns: 1fr,auto, auto;
+    grid-template-columns: 1fr auto auto;
     gap: 10px;
     margin-left:10%;
     margin-right:10%;
@@ -78,7 +78,7 @@ section{
 }
 .weather{
     display: grid;
-    grid-template-columns: 1fr, auto;
+    grid-template-columns: 1fr auto;
     grid-column: 2 / 4;
 }
 .weatherText{
@@ -125,7 +125,7 @@ footer{
     margin-top:5px;
     padding:0;
     display: grid;
-    grid-template-columns: 1fr,auto;
+    grid-template-columns: 1fr auto;
     background: #362706;
     color: #8dd3c1;
 }

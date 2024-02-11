@@ -66,4 +66,10 @@
     .open{
         display:flex;
     }   
+    .join{
+        top: 40%;
+    }
+    .openJoin{
+        top: 50%;
+    }
 }

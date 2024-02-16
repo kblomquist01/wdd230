@@ -29,6 +29,9 @@
         box-shadow: 0 0 3rem #fff;
         opacity: 0.55;
     }
+    .focus{
+        color:chartreuse;
+    }
     nav{
         background: black;
         align-items: center;

@@ -5,10 +5,30 @@
     }
 
     header{
+        display: grid;
         background:  blue;
         text-align: center;
         grid-column: 1 / 4;    
         
+    }
+    header img{
+        grid-column: 2 / 3;
+    }
+    .hero {
+        margin: 10px auto;
+        position: relative;
+        border: 1px solid rgba(0,0,0,.1);
+        height: 400px;
+    }
+    .herolabel {
+        position: absolute;
+        top: 30px;
+        left: 40px;
+        background: radial-gradient(#fff, #6c728b);
+        border: 1px solid rgba(0,0,0,.75);
+        padding: 1.5rem;
+        box-shadow: 0 0 3rem #fff;
+        opacity: 0.55;
     }
 
     nav{

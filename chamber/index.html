@@ -26,22 +26,25 @@
         <nav class="navigation"><a class="focus" href="#">Home</a> <a  href="#">Contact</a> <a  href="#">Join</a></nav>
     </header>
     <main>
-        <div class="banner">
-            <img src="images/houston.jpg" alt="Image of Houston">
+        <picture class="banner">
+            <source media="(max-width: 600px)" srcset="images/Small_wdd230-org.webp">
+            <source media="(min-width: 601px) and (max-width: 800px)" srcset="images/Medium_wdd230-org.webp">
+            <source media="(min-width: 801px)" srcset="images/Large_wdd230-org.webp">
+            <img src="images/Large_wdd230-org.webp" alt="Image of Houston">
             <button class="join">Join Now!</button>
-        </div>
+        </picture>
         
         <div class="grid">
             <section class="events">
                 <h3>Current Events</h3>
                 <div class="border"></div>
                 <h4>Ribbon Cutting</h4>
-                <p>join us for the grand opening of Diamond Shack thursday at 1pm.<img class="ribbon" src="images/360_F_90614861_sdoJHxFXuaUrJkOVSTmmK0jMOGynuLOd.jpg" alt="image cutting"></p>
+                <p>join us for the grand opening of Diamond Shack thursday at 1pm.<img class="ribbon" src="images/360_F_90614861_sdoJHxFXuaUrJkOVSTmmK0jMOGynuLOd.webp" alt="image cutting"></p>
             </section>
             <section class="weather">
                 <h3>Weather</h3>
                 <div class="border"></div>
-                <p class="weatherText">33°F<br>Sunny<br>humidity: 35%<br>WindChill: N/a<div class="sun">☀️</div></p>
+                <p id="weatherText">33°F<br>Sunny<br>humidity: 35%<br>WindChill: N/a<div class="sun">☀️</div></p>
             </section>
         </div>
         
@@ -75,5 +78,6 @@
     </footer>
     <script src="scripts/hamburgerbutton.js"></script>
     <script src="scripts/darkMode.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>

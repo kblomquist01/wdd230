@@ -1,3 +1,8 @@
+:root{
+    --invalid: red;
+    --valid: green;
+    --roundBorder: 45px 300px;
+}
 label {
     margin-top: 5px;
 	display: block;
@@ -29,10 +34,10 @@ label {
 }
 
 .wf1 input:required{
-    border-left:solid 8px red
+    border-left:solid 8px var(--invalid);
 }
 .wf1 input:required:valid{
-    border-left:solid 8px green
+    border-left:solid 8px var(--valid);
 }
 
 #rangevalues option {
@@ -40,5 +45,5 @@ label {
 }
 
 input[type="submit"]:hover{
-    border-radius: 45px 300px;
+    border-radius: var(--roundBorder);
 }

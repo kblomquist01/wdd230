@@ -72,4 +72,7 @@
     .openJoin{
         top: 50%;
     }
+    #table{
+        display:none;
+    }
 }

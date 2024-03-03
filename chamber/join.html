@@ -11,7 +11,7 @@
     <meta property="og:url" content="https://kblomquist01.github.io/wdd230/"/>
     <title>Kevin Blomquist - WDD 230 - Web Frontend Development</title>
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/normalize.css">
 
     <link rel="icon" href="favicon.ico">
@@ -19,20 +19,14 @@
 </head>
 <body>
     <header>
-        <h1>KevinBlomquist</h1>
-        <img src="images/WIN_20230909_17_42_31_Pro.webp" alt="Image of Kevin Blomquist" height=100px width=150px> 
+        <h1>Houston Chamber of Commerce</h1>
+        <button id="menu"></button>
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+        </label>
+        <nav class="navigation"><a href="index.html">Home</a> <a href="../lesson07/discover.html">Discover</a> <a  href="#">Contact</a> <a  class="focus" href="#">Join</a></nav>
     </header>
-    <button id="menu"></button>
-    
-    <nav class="navigation">
-        <ul>
-            <li> <a href="index.html">Home</a></li>
-            <li> <a href="chamber/" >Chamber</a></li>
-            <li> <a class="focus" href="#" >Join</a></li>
-            <li> <a href="https://www.byui.edu/" target="_blank">BYU-Idaho</a></li>
-            <li> <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/9?lang=eng">Scripture</a></li>
-        </ul>
-    </nav>
     <main>
         <div class="grid">
             <form method="get" action="thankyou.html" class="wf1">
@@ -41,7 +35,7 @@
                 <label id="fname">First Name* <input type="text" name="fname" required></label>
                 <label id="lname">Last Name* <input type="text" name="lname" required></label>
                 <label id="title">Title/Position* <input type="text" name="title" pattern="[A-Za-z19]" required></label>
-                <label id="email">Email*<input type="email" id="email" name="email" placeholder="Your gmail email address" pattern="[a-zA-Z0-9_.\-]+@gmail.com" required></label>
+                <label id="email">Email* <input type="email" id="email" name="email" placeholder="Your gmail email address" pattern="[a-zA-Z0-9_.\-]+@gmail.com" required></label>
                 <label id="phone">Phone* <input type="tel" name="phone" placeholder="1234567890" required></label>
                 <label id="orginization">Orginization* <input type="text" name="orginization" required></label>
                 
@@ -88,14 +82,14 @@
                     <td>✔️</td>
                 </tr>
                 <tr>
-                    <td>Premium access to webinars, masterclasses, and expert-led seminars.</td>
+                    <td>Premium access to webinars, masterclasses, and expert-led <br>seminars.</td>
                     <td>❌</td>
                     <td>❌</td>
                     <td>✔️</td>
                     <td>✔️</td>
                 </tr>
                 <tr>
-                    <td>Complimentary passes to all major events and conferences throughout the year.</td>
+                    <td>Complimentary passes to all major events and conferences <br>throughout the year.</td>
                     <td>❌</td>
                     <td>❌</td>
                     <td>❌</td>
@@ -108,14 +102,12 @@
     </main>
 
     <footer>
-        <p>
-            &copy; <span id="currentyear"></span>, Kevin Blomquist, NC
-        </p>
-        <p>
-            Last Modified: <span id="modifieddate"></span>
-        </p>
+        <p class="HCC"><strong>Houston Chamber of Commerce</strong><br>10370 Richmond Ave, Ste 125 Houston, TX 77042</p>
+        <p class="CCcontact">info@houstoncc.org<br>+999-9999-9999</p>
+        <div class="border"></div>
+        <p class="closer">&copy;2024 houston chamber  |  <strong>Kevin Blomquist</strong>  |  wdd230  |  Last modified: N/A</p>
     </footer>
-    <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburgerbutton.js"></script>
+    <script src="scripts/darkMode.js"></script>
 </body>
 </html>

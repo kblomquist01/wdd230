@@ -9,7 +9,7 @@
 	    --forelight: hsla(0,0%,100%,1);
 	    --border: hsla(0, 0%, 0%, 0.8);
 	    --borderlight: hsla(0, 0%, 0%, 0.411);
-	    --shadow: hsl(0,0%,50%);
+	    --shadow: hsla(0, 0%, 50%, 0.993);
 	    --zebra: hsl(0, 0%, 93%, 1);
     }
     body{

@@ -123,7 +123,7 @@
     }
     .grid{
         display: grid;
-        grid-template-columns: 1fr, auto;
+        grid-template-columns: 1fr auto;
     }
     .wf1{
         grid-column: 1 / 2;

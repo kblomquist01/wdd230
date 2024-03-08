@@ -1,0 +1,17 @@
+body{
+    background-color: azure;
+}
+#cards{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 5px;
+}
+section{
+    background-color: rgb(156, 192, 192);
+    justify-content: center;
+}
+__{
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+}

@@ -1,0 +1,110 @@
+{
+    "lessons": [
+        {
+          "lesson": "01",
+          "links": [
+            {
+              "url":"week1/holygrail.html",
+              "title":"holygrail"
+            }
+          ]
+        },
+        {
+            "lesson": "02",
+            "links": [
+              {
+                "url":"",
+                "title":""
+              }
+            ]
+          },
+          {
+            "lesson": "03",
+            "links": [
+              {
+                "url":"cssCombinator.html",
+                "title":"CSS combinator"
+              },
+              {
+                "url":"https://codepen.io/Kevin-Blomquist/details/abMVoVN",
+                "title":"psuedo element"
+              },
+              {
+                "url":"https://codepen.io/Kevin-Blomquist/details/MWxOgzY",
+                "title":"responsive"
+              }
+            ]
+          },
+          {
+            "lesson": "04",
+            "links": [
+              {
+                "url":"https://codepen.io/Kevin-Blomquist/details/ExMEpmx",
+                "title":"CSS Pseudo-Classes"
+              }
+            ]
+          },
+          {
+            "lesson": "05",
+            "links": [
+              {
+                "url":"images/landscape.webp",
+                "title":"WebP"
+              },
+              {
+                "url":"lesson05/bom.html",
+                "title":"favchap"
+              }
+            ]
+          },
+          {
+            "lesson": "06",
+            "links": [
+              {
+                "url":"lesson06/lazyload.html",
+                "title":"lazyload"
+              },
+              {
+                "url":"lesson01/design-principles.html",
+                "title":"Design Principles Document"
+              }
+            ]
+          },
+          {
+            "lesson": "07",
+            "links": [
+              {
+                "url":"",
+                "title":""
+              }
+            ]
+          },
+          {
+            "lesson": "08",
+            "links": [
+              {
+                "url":"lesson08/tablebuild.html",
+                "title":"table"
+              },
+              {
+                "url":"lesson08/form-start/Form-start/index.html",
+                "title":"form"
+              }
+            ]
+          },
+          {
+            "lesson": "09",
+            "links": [
+              {
+                "url":"lesson09/new-ward-members.json",
+                "title":"json"
+              },
+              {
+                "url":"lesson09/prophet.html",
+                "title":"prophet"
+              }
+            ]
+          }
+          
+    ]
+  }

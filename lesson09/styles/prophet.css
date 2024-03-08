@@ -10,7 +10,7 @@ section{
     background-color: rgb(156, 192, 192);
     justify-content: center;
 }
-__{
+p{
     text-align: center;
     color: blue;
     font-size: 20px;

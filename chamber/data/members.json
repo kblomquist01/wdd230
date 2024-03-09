@@ -1,0 +1,61 @@
+{
+    "members": [
+      {
+        "name": "Electronic Company",
+        "address": "Male",
+        "phoneNumber": "012-345-6789",
+        "WbsiteURL": "electric.com",
+        "iconFile": "icon.jpg",
+        "membership": "bronze"
+      },
+      {
+        "name": "Water Company",
+        "address": "Male",
+        "phoneNumber": "123-456-7890",
+        "WbsiteURL": "water.com",
+        "iconFile": "icon.jpg",
+        "membership": "bronze"
+      },
+      {
+        "name": "Reading Railroad",
+        "address": "Male",
+        "phoneNumber": "234-567-8901",
+        "WbsiteURL": "readingrailroad.com",
+        "iconFile": "icon.jpg",
+        "membership": "silver"
+      },
+      {
+        "name": "B&O Railroad",
+        "address": "Male",
+        "phoneNumber": "345-678-9012",
+        "WbsiteURL": "BandOrailroad.com",
+        "iconFile": "icon.jpg",
+        "membership": "silver"
+      },
+      {
+        "name": "Park Place",
+        "address": "Male",
+        "phoneNumber": "456-789-0123",
+        "WbsiteURL": "parkplace.com",
+        "iconFile": "icon.jpg",
+        "membership": "gold"
+      },
+      {
+        "name": "Boardwalk",
+        "address": "Male",
+        "phoneNumber": "567-890-1234",
+        "WbsiteURL": "boardwalk.com",
+        "iconFile": "icon.jpg",
+        "membership": "gold"
+      },
+      {
+        "name": "Free Parking",
+        "address": "Male",
+        "phoneNumber": "678-901-2345",
+        "WbsiteURL": "freeparking.com",
+        "iconFile": "icon.jpg",
+        "membership": "NP"
+      }
+    ]
+    
+  }

@@ -1,5 +1,5 @@
 const baseURL = "https://kblomquist01.github.io/wdd230/";
-const linksURL = "https://kblomquist01.github.io/wdd230/chamber/data/links.json";
+const linksURL = "https://kblomquist01.github.io/wdd230/chamber/data/members.json";
 
 const cards = document.querySelector('#cards');
 

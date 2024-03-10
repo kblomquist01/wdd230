@@ -2,7 +2,7 @@
     "members": [
       {
         "name": "Electronic Company",
-        "address": "Male",
+        "address": "123 electric road",
         "phoneNumber": "012-345-6789",
         "WbsiteURL": "electric.com",
         "iconFile": "icon.jpg",
@@ -10,7 +10,7 @@
       },
       {
         "name": "Water Company",
-        "address": "Male",
+        "address": "456 water street",
         "phoneNumber": "123-456-7890",
         "WbsiteURL": "water.com",
         "iconFile": "icon.jpg",
@@ -18,7 +18,7 @@
       },
       {
         "name": "Reading Railroad",
-        "address": "Male",
+        "address": "789 reading road",
         "phoneNumber": "234-567-8901",
         "WbsiteURL": "readingrailroad.com",
         "iconFile": "icon.jpg",
@@ -26,7 +26,7 @@
       },
       {
         "name": "B&O Railroad",
-        "address": "Male",
+        "address": "012 BO road",
         "phoneNumber": "345-678-9012",
         "WbsiteURL": "BandOrailroad.com",
         "iconFile": "icon.jpg",
@@ -34,7 +34,7 @@
       },
       {
         "name": "Park Place",
-        "address": "Male",
+        "address": "345 park place",
         "phoneNumber": "456-789-0123",
         "WbsiteURL": "parkplace.com",
         "iconFile": "icon.jpg",
@@ -42,7 +42,7 @@
       },
       {
         "name": "Boardwalk",
-        "address": "Male",
+        "address": "678 boardwalk",
         "phoneNumber": "567-890-1234",
         "WbsiteURL": "boardwalk.com",
         "iconFile": "icon.jpg",
@@ -50,7 +50,7 @@
       },
       {
         "name": "Free Parking",
-        "address": "Male",
+        "address": "901 free street",
         "phoneNumber": "678-901-2345",
         "WbsiteURL": "freeparking.com",
         "iconFile": "icon.jpg",

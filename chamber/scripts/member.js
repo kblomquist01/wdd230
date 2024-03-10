@@ -16,13 +16,12 @@ async function getLinks() {
         let card = document.createElement('section');
         let fullName = document.createElement('p');
         let description = document.createElement('p')
-        let portrait = document.createElement('img');
     
         
         fullName.textContent = `${member.name}`;
   
        description.innerHTML = `address: ${member.address}<br>contact: ${member.phoneNumber}\
-                                <br>URL: ${member.website}<br>${member.icon}<br>Membership Level: ${member.membership}`;
+                                <br>URL: ${member.WbsiteURL}<br>${member.iconFile}<br>Membership Level: ${member.membership}`;
     
         
         card.appendChild(fullName);

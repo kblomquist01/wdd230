@@ -301,4 +301,14 @@ td {
 tbody tr:nth-child(odd) {
     background-color: var(--zebra);
 }
-  
+
+.gridCheckBox {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+.gridView{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}

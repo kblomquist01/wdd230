@@ -1,20 +1,20 @@
-const main = document.querySelector("body");
-const sections = document.querySelectorAll('section');
-const checkbox = document.querySelector(".grid input[type='checkbox']");
+
+const section = document.querySelectorAll('section');
+const checkboxy = document.querySelector(".gridCheckBox input[type='checkbox']");
 
 function handleSwitch() {
-    const isChecked = checkbox.checked;
+    const isChecked = checkboxy.checked;
 
     if (isChecked) {
-        sections.forEach(section => {
+        section.forEach(section => {
             section.classList.toggle('gridView');
         });
     } else {
-        sections.forEach(section => {
+        section.forEach(section => {
             section.classList.toggle('gridView');
         });
     }
 }
 
 // Adding event listener to the checkbox
-checkbox.addEventListener('change', handleSwitch);
+checkboxy.addEventListener('change', handleSwitch);

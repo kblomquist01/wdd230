@@ -9,4 +9,4 @@ if (dayOfWeek <= hideAfterDay){
 else{
     meetAndGreetElement.style.display = 'none';
 }
-console.log("Day of the week:", dayOfWeek);
+//console.log("Day of the week:", dayOfWeek);

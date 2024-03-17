@@ -1,6 +1,6 @@
 const currentDate = new Date();
 const dayOfWeek = currentDate.getDay();
-const hideAfterDay = 3;
+const hideAfterDay = 6;
 const meetAndGreetElement = document.getElementById('meetAndGreet');
 
 if (dayOfWeek <= hideAfterDay){

@@ -62,7 +62,7 @@ header img{
     object-fit: cover;
     object-position: 50% 25%;
 }
-button{
+#join{
     position: absolute;
     top: 27%;
     left: 45%;
@@ -71,6 +71,9 @@ button{
     font-size: 30px;
     border: none;
     border-radius: 20px;
+}
+.close{
+    display: none;
 }
 .grid{
     display: grid;

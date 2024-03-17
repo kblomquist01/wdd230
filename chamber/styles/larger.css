@@ -66,6 +66,9 @@
     .open{
         display:flex;
     }   
+    .close{
+        display: none;
+    }
     #join{
         top: 40%;
     }

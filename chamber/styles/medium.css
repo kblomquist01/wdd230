@@ -41,6 +41,9 @@
     .openJoin{
         top: 50%;
     }
+    .close{
+        display: none;
+    }
     #table{
         display:none;
     }

@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
     <title>Chamber of Commerce</title>
 </head>
 <body>
@@ -33,7 +34,11 @@
             <img src="images/Large_wdd230-org.webp" alt="Image of Houston">
             <button class="join">Join Now!</button>
         </picture>
-        
+        <div id="meetAndGreet">
+            <section>
+                <h3>Come join our Meet and greet this Wednesday at 7:00PM</h3>
+            </section>
+        </div>
         <div class="grid">
             <section class="events">
                 <h3>Current Events</h3>
@@ -44,7 +49,49 @@
             <section class="weather">
                 <h3>Weather</h3>
                 <div class="border"></div>
-                <p id="weatherText">33°F<br>Sunny<br>humidity: 35%<br>WindChill: N/a<div class="sun">☀️</div></p>
+                <!--<div>
+                    <p><p id="current-temp"></p><br><p id="fig"></p><img id="weather-icon" src="" alt=""><br>humidity: 35%</p>
+                    <p id="weatherText">WindChill: N/a</p>
+                </div> -->
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="4" scope="colgroup">3 Day Weather</th>
+                        </tr>
+                        <tr>
+                            <th class="blank"></th>
+                            <th scope="col">Today</th>
+                            <th scope="col">Tomorrow</th>
+                            <th scope="col">2 days</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Temperature</td>
+                            <td id="current-temp"></td>
+                            <td id="tomorrow-temp"></td>
+                            <td id="day2-temp">✔️</td>
+                        </tr>
+                        <tr>
+                            <td>Weather Conditions</td>
+                            <td id="fig"></td>
+                            <td id="tomorrow-fig">✔️</td>
+                            <td id="day2-fig">✔️</td>
+                        </tr>
+                        <tr>
+                            <td>Humidity</td>
+                            <td id="currentHumidity"></td>
+                            <td id="tomorrowHumidity">❌</td>
+                            <td id="day2Humidity">✔️</td>
+                        </tr>
+                        <tr>
+                            <td>WindChill</td>
+                            <td id="WC"></td>
+                            <td id="tommorow-WC">❌</td>
+                            <td id="day2-WC">✔️</td>
+                        </tr>
+                    </tbody>
+                </table>
             </section>
         </div>
         
@@ -79,5 +126,8 @@
     <script src="scripts/hamburgerbutton.js"></script>
     <script src="scripts/darkMode.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/weather3day.js"></script>
+    <script src="scripts/meetAndGreet.js"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1150px) {
     header{
         margin:0;
         padding:0;
@@ -6,10 +6,6 @@
         grid-template-columns: 1fr;
         background: #362706;
         color: #8dd3c1;
-    }
-    .navigation{
-        display: none;
-        grid-column: 1 / 2;
     }
     .grid{
         display: grid;
@@ -39,33 +35,6 @@
         width: 125%; 
         border-bottom: 1px solid #8dd3c1;
     }
-
-    #menu {
-        display: flex;
-        font-size: 1.5rem;
-        border: 0;
-        background: none;
-        color: #8dd3c1;
-        position: absolute;
-        top: 1rem;
-        right: 1rem;
-
-    }
-    
-    #menu::before {
-        content: "☰";
-    }
-    
-    #menu.open::before {
-        content: "≡";
-    }
-
-    .open a{
-        display: inline;
-    }
-    .open{
-        display:flex;
-    }   
     .join{
         top: 40%;
     }

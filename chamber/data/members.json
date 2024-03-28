@@ -6,6 +6,7 @@
         "phoneNumber": "012-345-6789",
         "WbsiteURL": "electric.com",
         "iconFile": "icon.jpg",
+        "slogan": "We got the power",
         "membership": "bronze"
       },
       {
@@ -14,6 +15,7 @@
         "phoneNumber": "123-456-7890",
         "WbsiteURL": "water.com",
         "iconFile": "icon.jpg",
+        "slogan": "We got the water",
         "membership": "bronze"
       },
       {
@@ -22,6 +24,7 @@
         "phoneNumber": "234-567-8901",
         "WbsiteURL": "readingrailroad.com",
         "iconFile": "icon.jpg",
+        "slogan": "We got the reading power",
         "membership": "silver"
       },
       {
@@ -30,6 +33,7 @@
         "phoneNumber": "345-678-9012",
         "WbsiteURL": "BandOrailroad.com",
         "iconFile": "icon.jpg",
+        "slogan": "We dont stink",
         "membership": "silver"
       },
       {
@@ -38,6 +42,7 @@
         "phoneNumber": "456-789-0123",
         "WbsiteURL": "parkplace.com",
         "iconFile": "icon.jpg",
+        "slogan": "We got the Park",
         "membership": "gold"
       },
       {
@@ -46,6 +51,7 @@
         "phoneNumber": "567-890-1234",
         "WbsiteURL": "boardwalk.com",
         "iconFile": "icon.jpg",
+        "slogan": "We got the board",
         "membership": "gold"
       },
       {
@@ -54,6 +60,7 @@
         "phoneNumber": "678-901-2345",
         "WbsiteURL": "freeparking.com",
         "iconFile": "icon.jpg",
+        "slogan": "We got the free parking",
         "membership": "NP"
       }
     ]
